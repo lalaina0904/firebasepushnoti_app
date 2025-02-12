@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289557833901",
+    "project_id": "fir-pushnotif-36342",
+    "storage_bucket": "fir-pushnotif-36342.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289557833901:android:72be2da55152bcf1dfbe24",
+        "android_client_info": {
+          "package_name": "com.lalaina0904.firebasePushNotif_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-PPqoh_8Uk_AkK4CY5ETUNOuEVLH3rcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
