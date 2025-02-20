@@ -1,0 +1,23 @@
+# flow_contacts_android.yaml
+
+appId: com.lalaina0904.firebasePushNotif_app
+---
+- launchApp
+
+# Vérifier que l'application s'est bien lancée
+- assertVisible: 'Email'
+
+# Saisie des identifiants
+- tapOn: 'Email'
+- inputText: 'panda@gmail.com'
+- hideKeyboard
+
+- tapOn: 'Password'
+- inputText: 'test'
+- hideKeyboard
+
+# Clic sur "Sign In"
+- tapOn: 'Sign In'
+
+# Vérification du message de connexion réussie
+- assertVisible: 'Salut petit Panda!'
